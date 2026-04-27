@@ -6,18 +6,26 @@ body {
 header {
     background-color: #ebbb4c;
     display: flex;
-    padding: 10px 20px;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1) ;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .logo {
-    margin: 4px;
     height: 110px;
     border-radius: 32px;
 }
 
+header h1 {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.nav a {
+    margin-left: 15px;
+}
 .ghana-section {
     text-align: center;
     padding: 40px;
@@ -29,11 +37,49 @@ header {
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
+.akan-section {
+    text-align: center;
+}
+
+.akan-section img {
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
 .form-container {
-    background-color: #fff;
+    background-color: #ebbb4c;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     max-width: 400px;
     margin: 20px auto;
+}
+input, textarea {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+input:focus, textarea:focus {
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+button {
+  background-color: #ebbb4c;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 30px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #d9a23c;
 }
