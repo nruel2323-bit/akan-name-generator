@@ -1,0 +1,26 @@
+body {
+    background-color: #f4e1b5; /* warm cream color */
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.ghana-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.ghana-image {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
