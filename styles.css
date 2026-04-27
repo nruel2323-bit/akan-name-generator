@@ -4,16 +4,18 @@ body {
     padding: 0;
 }
 header {
+    background-color: #ebbb4c;
     display: flex;
-    padding: 20px 40px;
+    padding: 10px 20px;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1) ;
 }
 
 .logo {
     margin: 4px;
-    height: 50px;
-    border-radius: 20px;
+    height: 110px;
+    border-radius: 32px;
 }
 
 .ghana-section {
