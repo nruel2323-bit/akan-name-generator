@@ -25,6 +25,7 @@ header h1 {
 
 .nav a {
     margin-left: 15px;
+    text-emphasis: none;
 }
 .ghana-section {
     text-align: center;
