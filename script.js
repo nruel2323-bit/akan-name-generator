@@ -15,8 +15,6 @@ let femaleNames =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 let akanName;
 if(genderInput === "male"){
     akanName = maleNames[d];
-} else if(genderInput === "female"){
+} else(genderInput === "female");{
     akanName = femaleNames[d];
-} else {
-    akanName = "Invalid gender input";
 }
