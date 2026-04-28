@@ -18,3 +18,4 @@ if(genderInput === "male"){
 } else(genderInput === "female");{
     akanName = femaleNames[d];
 }
+document.getElementById("result").innerText = "You were born on a" + dayName + ". Your Akan name is " + akanName+".";
