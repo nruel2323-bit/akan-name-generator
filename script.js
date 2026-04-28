@@ -1,3 +1,4 @@
+// test if console works
 console.log("JS is connected");
 
 document.getElementById("akanForm").addEventListener("submit", function(event) {
