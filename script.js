@@ -10,3 +10,5 @@ let d =Math.floor(((CC/4)-(2*CC)-1+(5*YY/4)+(26*(MM+1)/10)+DD)%7);
 if(d<0)d+=7;
 let days =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 letdayName =days[d];
+let maleNames =["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+let femaleNames =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
