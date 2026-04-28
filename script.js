@@ -12,3 +12,11 @@ let days =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
 letdayName =days[d];
 let maleNames =["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+let akanName;
+if(genderInput === "male"){
+    akanName = maleNames[d];
+} else if(genderInput === "female"){
+    akanName = femaleNames[d];
+} else {
+    akanName = "Invalid gender input";
+}
